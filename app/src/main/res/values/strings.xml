@@ -9,13 +9,16 @@
     <string name="release_year">Release Year</string>
     <string name="genre">Genre</string>
     <string name="play_button">play button</string>
-    <string name="tap_tunes_explanation">This is the default view when opening up Tap Tunes.
-        Press the play button to play the tune or tap the album image to go the Tune Details view.</string>
     <string name="artist_bio">This artist was born on December 25, 1901. To pass the time, he sang tunes from dusk till dawn on his family farm.
         Eventually, he won singing competitions at church and in high school. At 18, after becoming valedictorian, Blue Records signed him on with his first single,
         Chickens and Squash.</string>
+    <string name="details_album_image">details album image</string>
+    <string name="tap_tunes_explanation">This is the default view when opening up Tap Tunes.
+        Press the play button to play the tune or tap the album image to go the Tune Details view.</string>
     <string name="details_explanation">The details view features the album image, song title, artist name, release year, genre, and artist bio. Tapping the album image brings
         the user back the main view and tapping the genre text opens up a list of related songs.</string>
-    <string name="details_album_image">details album image</string>
+    <string name="genre_explanation">In the Genre view, different tunes are listed based on the genre of the tune in the Details view. Tapping the tune layout will bring
+        you back to the Details view.</string>
+    <string name="genre_image_view">genre_image_view</string>
 
 </resources>

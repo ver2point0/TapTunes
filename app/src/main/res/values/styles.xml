@@ -68,5 +68,22 @@
     </style>
 
     <!-- Genre View -->
+    <style name="GenreImageView">
+        <item name="android:layout_width">@dimen/genre_image_width</item>
+        <item name="android:layout_height">@dimen/genre_image_height</item>
+        <item name="android:src">@drawable/image_icon</item>
+        <item name="android:layout_marginBottom">@dimen/genre_image_vertical_margin</item>
+    </style>
 
+    <style name="GenreSongTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/genre_song_text_size</item>
+    </style>
+
+    <style name="GenreArtistTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/genre_artist_text_size</item>
+    </style>
 </resources>

@@ -13,4 +13,10 @@
     <dimen name="detail_text_size">26sp</dimen>
     <dimen name="detail_album_width">140dp</dimen>
     <dimen name="detail_album_height">140dp</dimen>
+    <dimen name="genre_image_width">100dp</dimen>
+    <dimen name="genre_image_height">100dp</dimen>
+    <dimen name="genre_image_vertical_margin">8dp</dimen>
+    <dimen name="genre_song_text_size">16sp</dimen>
+    <dimen name="genre_artist_text_size">16sp</dimen>
+    <dimen name="genre_linear_horizontal_margin">20dp</dimen>
 </resources>
