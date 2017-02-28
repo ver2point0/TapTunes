@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tap Tunes</string>
+    <string name="tune_details">Tune Details</string>
+    <string name="tune_genre">Tune Genre</string>
+    <string name="tune_year">Tune Year</string>
+    <string name="album_image">album image</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="play_button">play button</string>
+    <string name="tap_tunes_explanation">This is the default view when opening up Tap Tunes.
+        Press the play button to play the tune or tap the album image to go the Tune Details view.</string>
+
+</resources>
