@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="PlayButton">
+                <item name="android:layout_width">@dimen/play_button_width</item>
+                <item name="android:layout_height">@dimen/play_button_height</item>
+                <item name="android:src">@android:drawable/ic_media_play</item>
+                <item name="android:layout_centerVertical">true</item>
+                <item name="android:layout_marginStart">@dimen/play_button_margin</item>
+                <item name="android:layout_marginLeft">@dimen/play_button_margin</item>
+        </style>
+</resources>

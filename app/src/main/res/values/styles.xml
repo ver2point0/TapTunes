@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -8,4 +7,36 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- album image styles -->
+    <style name="AlbumImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/album_image_height</item>
+        <item name="android:src">@drawable/image_icon</item>
+    </style>
+
+    <!-- song name & artist name styles -->
+    <style name="MainTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/song_artist_text_size</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <!-- play button styles-->
+    <style name="PlayButton">
+        <item name="android:layout_width">@dimen/play_button_width</item>
+        <item name="android:layout_height">@dimen/play_button_height</item>
+        <item name="android:src">@android:drawable/ic_media_play</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/play_button_margin</item>
+    </style>
+
+    <!-- text view explanation styles -->
+    <style name="ExplainTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/explanation_text_size</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
 </resources>
