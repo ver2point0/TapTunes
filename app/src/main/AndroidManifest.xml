@@ -8,20 +8,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".TuneDetails"
-            android:label="@string/tune_details">
+            android:label="@string/tune_details"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".TuneGenre"
-            android:label="@string/tune_genre">
+            android:label="@string/tune_genre"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

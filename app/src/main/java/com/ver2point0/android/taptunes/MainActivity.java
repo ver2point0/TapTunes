@@ -13,15 +13,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Find the View that shows the album image
-        ImageView albumImage = (ImageView) findViewById(R.id.album_image);
+        // Find the View that shows the main album image
+        ImageView mainAlbumImage = (ImageView) findViewById(R.id.main_album_image);
         // Set a click listener on the albumImage view
-        if (albumImage != null) {
-            albumImage.setOnClickListener(new View.OnClickListener() {
+        if (mainAlbumImage != null) {
+            mainAlbumImage.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent albumImageIntent = new Intent(MainActivity.this, TuneDetails.class);
-                    startActivity(albumImageIntent);
+                    Intent mainAlbumImageIntent = new Intent(MainActivity.this, TuneDetails.class);
+                    startActivity(mainAlbumImageIntent);
                 }
             });
         }

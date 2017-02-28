@@ -8,4 +8,13 @@
                 <item name="android:layout_marginStart">@dimen/play_button_margin</item>
                 <item name="android:layout_marginLeft">@dimen/play_button_margin</item>
         </style>
+
+        <style name="DetailTextView">
+                <item name="android:layout_width">wrap_content</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:textSize">@dimen/detail_text_size</item>
+                <item name="android:layout_marginTop">@dimen/detail_text_vertical_margin</item>
+                <item name="android:layout_alignParentRight">true</item>
+                <item name="android:layout_alignParentEnd">true</item>
+        </style>
 </resources>

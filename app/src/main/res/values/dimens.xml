@@ -8,4 +8,9 @@
     <dimen name="play_button_height">80dp</dimen>
     <dimen name="play_button_margin">250dp</dimen>
     <dimen name="explanation_text_size">20sp</dimen>
+    <dimen name="artist_bio_text_size">18sp</dimen>
+    <dimen name="detail_text_vertical_margin">5dp</dimen>
+    <dimen name="detail_text_size">26sp</dimen>
+    <dimen name="detail_album_width">140dp</dimen>
+    <dimen name="detail_album_height">140dp</dimen>
 </resources>

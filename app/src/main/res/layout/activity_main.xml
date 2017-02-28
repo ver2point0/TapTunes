@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,9 +13,9 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/album_image"
-        android:contentDescription="@string/album_image"
-        style="@style/AlbumImage"/>
+        android:id="@+id/main_album_image"
+        style="@style/AlbumImage"
+        android:contentDescription="@string/main_album_image"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -24,23 +24,23 @@
 
         <TextView
             android:id="@+id/song_title"
-            android:text="@string/song_title"
-            style="@style/MainTextView"/>
+            style="@style/MainTextView"
+            android:text="@string/song_title"/>
 
         <TextView
             android:id="@+id/artist_name"
-            android:text="@string/artist_name"
+            style="@style/MainTextView"
             android:layout_below="@id/song_title"
-            style="@style/MainTextView"/>
+            android:text="@string/artist_name"/>
 
         <ImageButton
             android:id="@+id/play_button"
-            android:contentDescription="@string/play_button"
-            style="@style/PlayButton"/>
+            style="@style/PlayButton"
+            android:contentDescription="@string/play_button"/>
     </RelativeLayout>
 
     <TextView
-        android:text="@string/tap_tunes_explanation"
-        style="@style/ExplainTextView"/>
+        style="@style/ExplainTextView"
+        android:text="@string/tap_tunes_explanation"/>
 
 </LinearLayout>
